@@ -2,11 +2,8 @@
 *.py~
 *.py#
 
-*.pkl
 output/*
-train_log/*
-*.mp4
-
+ffmpeg
 test/
 .idea/
 *.npz

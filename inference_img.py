@@ -24,12 +24,12 @@ args = parser.parse_args()
 
 try:
     try:
-        try:
-            from model.RIFE_HDv2 import Model
-            model = Model()
-            model.load_model(args.modelDir, -1)
-            print("Loaded v2.x HD model.")
-        except:
+        # try:
+        #     from model.RIFE_HDv2 import Model
+        #     model = Model()
+        #     model.load_model(args.modelDir, -1)
+        #     print("Loaded v2.x HD model.")
+        # except:
             from train_log.RIFE_HDv3 import Model
             model = Model()
             model.load_model(args.modelDir, -1)
