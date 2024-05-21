@@ -19,6 +19,25 @@
             "--scale",
             "0.5"
             ]
+        },
+
+
+        // python3 inference_img.py --img img0.png img1.png --exp=4
+
+        {
+            "name": "inference_img",
+            "type": "python",
+            "request": "launch",
+            "program": "inference_img.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+            "--img",
+            "D:\\applechang\\ECCV2022-RIFE\\img\\000309.jpg",
+            "D:\\applechang\\ECCV2022-RIFE\\img\\000424.jpg",
+            "--exp",
+            "4",
+            ]
         }
     ]
 }
